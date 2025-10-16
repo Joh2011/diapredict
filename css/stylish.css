@@ -1,0 +1,84 @@
+header .predict-now {
+    background: #77ff00;
+    color: #fff;
+    padding: 1px 10px;
+    border-radius: 3px;
+  }
+
+/* Global Styles */
+body, h1, h2, p, ul, li, a, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background: #0ea43b;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 2rem; /* Padding yang lebih besar untuk memberi ruang */
+    display: flex;
+    justify-content: space-between; /* Memberikan ruang di antara logo dan navigasi */
+    align-items: center; /* Menyelaraskan secara vertikal */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 2rem; /* Ukuran logo */
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Menyelaraskan logo secara vertikal */
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem; /* Jarak antar link */
+}
+
+header .nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.5rem; /* Ukuran font navigasi */
+    display: inline-block;
+}
+
+/* WordTitle2 */
+.headert{
+    color: rgb(0, 0, 0);
+    font-size:40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin:auto;
+    font-style:oblique;
+}
+
+.productdd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+}
+.productdds  a img{
+    width: 250px;
+}
+
+.titleProductd {
+    width: 70%;
+    font-size: 70%;
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-style:oblique;
+
+}
+
+
+ 
+  

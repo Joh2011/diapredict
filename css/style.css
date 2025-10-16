@@ -1,0 +1,100 @@
+header .predict-now {
+    background: #77ff00;
+    color: #fff;
+    padding: 1px 10px;
+    border-radius: 3px;
+  }
+
+/* Global Styles */
+body, h1, h2, p, ul, li, a, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background: #0ea43b;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 2rem; /* Padding yang lebih besar untuk memberi ruang */
+    display: flex;
+    justify-content: space-between; /* Memberikan ruang di antara logo dan navigasi */
+    align-items: center; /* Menyelaraskan secara vertikal */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 2rem; /* Ukuran logo */
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Menyelaraskan logo secara vertikal */
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem; /* Jarak antar link */
+}
+
+header .nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.5rem; /* Ukuran font navigasi */
+    display: inline-block;
+}
+
+/* Section Styles */
+.section {
+    padding: 5rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(200, 200, 200);
+    box-shadow: 0 0 10px rgba(11, 11, 11, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a5d4e;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+  color: #333;
+}
+

@@ -1,0 +1,4 @@
+1. Pastikan Anda memiliki file xgboost_model.pkl dan file diabetes_pred.py di direktori yang sama.
+2. Install python library yang ada pada requirements.txt dengan menjalankan command "pip install -r requirements.txt" pada directory 
+3. Jalankan command "python diabetes_pred.py" dan pastikan berjalan pada "http://127.0.0.1:5000". Bila berbeda buka file script.js pada folder js dan ganti 'http://127.0.0.1:5000/predict' dengan address anda '..../predict' dan save file.
+4. Buka web dengan membuka file html manapun yang ada pada folder html di browser

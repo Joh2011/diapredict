@@ -1,0 +1,74 @@
+header .predict-now {
+    background: #77ff00;
+    color: #fff;
+    padding: 1px 10px;
+    border-radius: 3px;
+  }
+
+/* Global Styles */
+body, h1, h2, p, ul, li, a, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background: #0ea43b;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 2rem; /* Padding yang lebih besar untuk memberi ruang */
+    display: flex;
+    justify-content: space-between; /* Memberikan ruang di antara logo dan navigasi */
+    align-items: center; /* Menyelaraskan secara vertikal */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 2rem; /* Ukuran logo */
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Menyelaraskan logo secara vertikal */
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem; /* Jarak antar link */
+}
+
+header .nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.5rem; /* Ukuran font navigasi */
+    display: inline-block;
+}
+
+/* Section Styles */
+.section {
+    padding: 5rem;
+    text-align: center;
+}
+
+/* About Us Section */
+#about .team {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+    margin-top: 2rem;
+}
+
+#about .team .member {
+    background: #ccc;
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem; 
+    font-weight: bold;
+}
+
+
